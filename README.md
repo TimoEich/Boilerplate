@@ -1,0 +1,4 @@
+# Boilerplate
+
+A HTML/CSS/JS Boilerplate for my own Projects.
+Feel free to use it for your own Stuff.
