@@ -7,6 +7,6 @@ Using HTML5, SCSS and JS :)
 
 # Task List
 
-- [ ] Rework the CSS Reset
+- [x] Rework the CSS Reset(half done i guess)
 - [ ] Components pre Added?
 - [ ] Add Mixins & Functions

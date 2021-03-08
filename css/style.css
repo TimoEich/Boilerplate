@@ -1,16 +1,20 @@
+@charset "UTF-8";
 html {
+  font-size: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-size: 16px;
+  font-family: sans-serif;
 }
 
+/* For myselfe, border-box is easier to style */
 *,
-*:before,
-*:after {
+*::before,
+*::after {
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
 }
 
+/* Reset margins and paddings on elements */
 body,
 h1,
 h2,
@@ -18,21 +22,38 @@ h3,
 h4,
 h5,
 h6,
-p,
+ul,
 ol,
-ul {
+li,
+p,
+pre,
+blockquote,
+figure,
+hr {
   margin: 0;
   padding: 0;
-  font-weight: normal;
 }
 
+/* Removes discs from lists */
 ol,
 ul {
   list-style: none;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
+/* Browsers don’t inherit typography for forms and buttons. */
+input,
+textarea,
+select,
+button {
+  color: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+}
+
+/* Different browsers style the borders for forms, elements and buttons differently */
+input,
+textarea,
+button {
+  border: 1px solid gray;
 }
 /*# sourceMappingURL=style.css.map */
