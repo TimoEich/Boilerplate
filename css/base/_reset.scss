@@ -1,14 +1,14 @@
 html {
     font-size: 100%;
     box-sizing: border-box;
-    font-family: sans-serif
+    font-family: sans-serif;
 }
 
 /* For myselfe, border-box is easier to style */
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 /* Reset margins and paddings on elements */
@@ -27,8 +27,8 @@ pre,
 blockquote,
 figure,
 hr {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 /* Removes discs from lists */
@@ -42,14 +42,14 @@ input,
 textarea,
 select,
 button {
-  color: inherit; 
-  font: inherit; 
-  letter-spacing: inherit; 
+    color: inherit;
+    font: inherit;
+    letter-spacing: inherit;
 }
 
 /* Different browsers style the borders for forms, elements and buttons differently */
 input,
 textarea,
 button {
-  border: 1px solid gray; 
+    border: 1px solid gray;
 }
